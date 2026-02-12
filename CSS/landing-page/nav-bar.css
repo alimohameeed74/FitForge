@@ -1,13 +1,81 @@
 /* Write the code for nav-bar section here */
+.nav-bar {
+  background-color: #101828;
+  padding-block: 20px;
+  z-index: 999;
+}
+
+.nav-bar .nav-bar-logo {
+  text-transform: uppercase;
+  font-weight: var(--fw-700);
+  color: white;
+  font-size: var(--fz-30);
+}
+.nav-bar .fa-dumbbell {
+  display: none;
+  color: red;
+  font-weight: var(--fw-700);
+  font-size: var(--fz-40);
+  margin-right: 10px;
+  transform: rotate(45deg);
+}
+.nav-bar .nav-bar-logo:hover .fa-dumbbell {
+  transform: rotate(90deg);
+}
+.nav-bar ul {
+  display: none;
+}
+.nav-bar ul li {
+  margin-right: 30px;
+  color: rgba(255, 255, 255, 0.697);
+  font-weight: var(--fw-600);
+}
+.nav-bar ul li a {
+  padding-block: 5px;
+}
+.nav-bar ul a::after {
+  content: " ";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: red;
+}
+.nav-bar ul li a:hover::after {
+  width: 100%;
+}
+.nav-bar ul li:hover {
+  color: white;
+}
+
+.nav-bar .nav-bar-btn {
+  padding-inline: 15px;
+  padding-block: 10px;
+  font-weight: var(--fw-600);
+  color: white;
+  background-color: red;
+}
+
+.nav-bar .nav-bar-btn:hover {
+  transform: scale(1.1);
+}
 
 /* Media Queries if needed */
 @media (min-width: 576px) {
+  .nav-bar .fa-dumbbell {
+    display: flex;
+  }
 }
 
 @media (min-width: 768px) {
 }
 
 @media (min-width: 992px) {
+  .nav-bar ul {
+    display: flex;
+  }
 }
 
 @media (min-width: 1200px) {

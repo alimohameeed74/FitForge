@@ -4,6 +4,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  transition: all ease 0.3s;
 }
 
 body,
@@ -21,6 +22,11 @@ blockquote,
 dl,
 dd {
   margin: 0;
+}
+
+body {
+  padding-block: 96px;
+  font-family: sans-serif;
 }
 
 ul,

@@ -4,6 +4,11 @@
 @import url("../variables.css");
 @import url("../utilities.css");
 
+body {
+  padding: 0;
+  font-family: sans-serif;
+}
+
 /* Write the code for program-details-page here */
 h2 {
   color: var(--color-one);
