@@ -1,0 +1,27 @@
+/* Import Basic CSS Files */
+
+@import url("../reboot.css");
+@import url("../variables.css");
+@import url("../utilities.css");
+
+/* Write the code for form page here */
+
+h2 {
+  color: var(--color-one);
+}
+
+/* Media Queries if needed */
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}

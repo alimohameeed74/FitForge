@@ -1,0 +1,18 @@
+/* Import Basic CSS Files */
+
+@import url("reboot.css");
+@import url("variables.css");
+@import url("utilities.css");
+
+/* Import Landing Page CSS Files */
+@import url("landing-page/nav-bar.css");
+@import url("landing-page/main.css");
+@import url("landing-page/about.css");
+@import url("landing-page/programs.css");
+@import url("landing-page/why-choose-us.css");
+@import url("landing-page/trainers.css");
+@import url("landing-page/membership.css");
+@import url("landing-page/success-stories.css");
+@import url("landing-page/testimonials.css");
+@import url("landing-page/our-gym.css");
+@import url("landing-page/footer.css");
