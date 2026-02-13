@@ -14,6 +14,64 @@
     <title>Fit Forge | Registeration Form</title>
   </head>
   <body>
-    <h2>Registeration Form Works!</h2>
+    <section class="position-relative">
+      <div class="layer position-absolute top-0 left-0 right-0 bottom-0"></div>
+      <div class="reg-form position-relative">
+        <h2>Join Us</h2>
+        <form action="../index.html" method="get">
+          <div class="form-inputs">
+            <fieldset class="d-flex flex-column">
+              <legend>Personal Information</legend>
+              <label for="fullName">Full Name: </label>
+              <input type="text" name="fullName" id="fullName" />
+              <label for="email">Email: </label>
+              <input type="email" name="email" id="email" />
+              <label for="phoneNumber">Phone Number: </label>
+              <input type="tel" name="phoneNumber" id="phoneNumber" />
+              <label for="Age">Age : </label>
+              <input type="number" name="Age" id="Age" />
+              <label for="Gender">Gender : </label>
+              <select type="number" name="Gender" id="Gender">
+                <option value="M" selected>Male</option>
+                <option value="F">Female</option>
+              </select>
+            </fieldset>
+            <fieldset class="d-flex flex-column">
+              <legend>Fitness Goals & Preferences</legend>
+              <div class="d-flex flex-row align-center">
+                <input type="radio" id="loss" value="loss" name="goal" />
+                <label for="loss">Weight Loss</label>
+              </div>
+              <div class="d-flex flex-row align-center">
+                <input type="radio" id="gain" value="gain" name="goal" />
+                <label for="gain">Muscle Gain </label>
+              </div>
+              <div class="d-flex flex-row align-center">
+                <input
+                  type="radio"
+                  id="fintness"
+                  value="fintness"
+                  name="goal"
+                />
+                <label for="fintness">General Fintness </label>
+              </div>
+              <div class="d-flex flex-row align-center">
+                <input
+                  type="radio"
+                  id="personal"
+                  value="personal"
+                  name="goal"
+                />
+                <label for="personal">Personal Training </label>
+              </div>
+            </fieldset>
+          </div>
+          <div class="d-flex justify-between">
+            <button type="submit" class="btn rounded save">Save</button>
+            <button type="reset" class="btn rounded cancel">Cencel</button>
+          </div>
+        </form>
+      </div>
+    </section>
   </body>
 </html>
