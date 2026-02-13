@@ -1,16 +1,131 @@
 /* Write the code for membership section here */
+.membership {
+  background-color: white;
+  padding-block: 30px;
+}
+.membership h2 {
+  color: #101828;
+  font-size: var(--fz-24);
+  margin-bottom: 12px;
+  font-weight: var(--fw-700);
+}
+.membership p {
+  color: gray;
+  font-size: var(--fz-10);
+  font-weight: var(--fw-500);
+  margin-bottom: 20px;
+}
+
+.membership-cards {
+  flex-direction: column;
+}
+
+.membership-cards .c-1,
+.membership-cards .c-2 {
+  flex-direction: column;
+  width: 100%;
+}
+
+.membership-cards .card {
+  padding-inline: 12px;
+  padding-block: 20px;
+  width: 100%;
+  margin-right: 0;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 2px 2px gray;
+}
+.membership-cards .card:hover {
+  border-color: red;
+  background-color: #101828;
+  color: white;
+  box-shadow: 2px 2px 2px 2px red;
+  transform: scale(1.05);
+}
+.membership-cards .card h3 {
+  color: #101828;
+  margin-bottom: 12px;
+}
+.membership-cards .card:hover h3,
+.membership-cards .card:hover p span,
+.membership-cards .card:hover p {
+  color: white;
+}
+.membership-cards .card:hover .get-started-btn {
+  background-color: red;
+}
+.membership-cards .card p {
+  margin-bottom: 12px;
+  color: gray;
+  font-weight: var(--fw-500);
+  font-size: var(--fz-20);
+}
+.membership-cards .card p span {
+  font-weight: var(--fw-600);
+  font-size: var(--fz-48);
+  color: #101828;
+}
+
+.membership-cards .card .fa-check {
+  color: red;
+}
+.membership-cards .card ul {
+  margin-bottom: 20px;
+}
+.membership-cards .card ul li {
+  margin-bottom: 12px;
+}
+.membership-cards .card .get-started-btn {
+  background-color: #101828;
+  border-color: transparent;
+  color: white;
+  padding-inline: 20px;
+  padding-block: 10px;
+}
+.membership-cards .card .get-started-btn:hover {
+  transform: scale(1.1);
+}
 
 /* Media Queries if needed */
 @media (min-width: 576px) {
+  .membership h2 {
+    color: #101828;
+    font-size: var(--fz-48);
+  }
+  .membership p {
+    color: gray;
+    font-size: var(--fz-24);
+  }
 }
 
 @media (min-width: 768px) {
+  .membership-cards .card {
+    width: 46%;
+  }
+  .membership-cards .c-1,
+  .membership-cards .c-2 {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 @media (min-width: 992px) {
+  .membership-cards .c-1,
+  .membership-cards .c-2 {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 48%;
+    margin-bottom: 0px;
+  }
 }
 
 @media (min-width: 1200px) {
+  .membership-cards {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 @media (min-width: 1400px) {
