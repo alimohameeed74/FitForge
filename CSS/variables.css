@@ -25,6 +25,5 @@
   --fw-500: 500;
   --fw-600: 600;
   --fw-700: 700;
-  --color-one: red;
-  --color-two: brown;
+  --freq-font-color: rgba(255, 255, 255, 0.697);
 }

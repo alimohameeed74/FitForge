@@ -97,19 +97,6 @@
   text-transform: capitalize;
 }
 
-.fw-light {
-  font-weight: 300;
-}
-.fw-normal {
-  font-weight: 400;
-}
-.fw-semi-bold {
-  font-weight: 600;
-}
-.fw-bold {
-  font-weight: 700;
-}
-
 /* ===========================
    Width & Height
 =========================== */
