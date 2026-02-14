@@ -6,7 +6,6 @@
 
 body {
   padding: 0;
-
   font-family: sans-serif;
 }
 
@@ -26,7 +25,7 @@ section {
 }
 
 .reg-form {
-  padding: 20px;
+  padding: 25px;
   border-radius: 30px;
   background-color: white;
   z-index: 100;
@@ -38,12 +37,13 @@ section {
 .reg-form h2 {
   margin-bottom: 20px;
   font-size: var(--fz-30);
+  font-weight: var(--fw-700);
   color: #101828;
 }
 .reg-form legend {
   margin-bottom: 20px;
-  font-size: var(--fz-20);
-  font-weight: var(--fw-500);
+  font-size: var(--fz-14);
+  font-weight: var(--fw-600);
   color: #101828;
 }
 
@@ -62,7 +62,7 @@ section {
 }
 
 .form-inputs::-webkit-scrollbar-thumb {
-  background-color: rgba(255, 255, 255, 0.3); /* شفاف */
+  background-color: rgba(255, 255, 255, 0.3);
   border-radius: 10px;
 }
 
@@ -72,6 +72,7 @@ section {
 
 .form-inputs fieldset {
   margin-bottom: 20px;
+  border: 1px solid rgb(16, 24, 40, 0.2);
 }
 
 form .btn {
@@ -102,43 +103,61 @@ form .btn:hover {
   border-radius: 8px;
   font-size: var(--fz-14);
   outline: none;
-  transition:
-    border-color 0.2s ease,
-    box-shadow 0.2s ease;
-  background-color: #fff;
 }
 
 .form-inputs input:focus,
 .form-inputs select:focus {
-  border-color: green;
+  border-color: #101828;
   box-shadow: 0 0 0 3px rgba(13, 110, 253, 0.15);
 }
 
 .form-inputs label {
   margin-bottom: 6px;
   font-size: var(--fz-14);
-  font-weight: 500;
-  color: #333;
+  font-weight: var(--fw-500);
+  color: #101828;
   display: block;
+}
+
+.form-part-2 label {
+  margin-bottom: 0;
+}
+.form-part-2 div {
+  margin-bottom: 10px;
 }
 
 .form-inputs input[type="radio"] {
   width: auto;
-  margin-left: 8px;
-  accent-color: #0d6efd;
+  margin-right: 8px;
+  margin-bottom: 6px;
+  accent-color: #101828;
+  background-color: transparent;
 }
 
 /* Media Queries if needed */
 @media (min-width: 576px) {
+  .reg-form legend {
+    font-size: var(--fz-20);
+  }
+
   .reg-form {
-    width: 450px;
+    width: 400px;
   }
 }
 
 @media (min-width: 768px) {
+  .reg-form {
+    width: 450px;
+  }
+  .form-inputs label {
+    font-size: var(--fz-16);
+  }
 }
 
 @media (min-width: 992px) {
+  .reg-form {
+    width: 500px;
+  }
 }
 
 @media (min-width: 1200px) {
