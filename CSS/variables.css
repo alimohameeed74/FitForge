@@ -39,4 +39,13 @@
   --color-red: red;
   --shadow-light: 0 10px 20px rgba(0, 0, 0, 0.08);
   --shadow-hover: 0 5px 10px rgba(0, 0, 0, 0.4);
+  --red: #e02020;
+  --red-light: #fdecea;
+  --red-mid: #fbbfbf;
+  --dark: #1a1a1a;
+  --text: #2d2d2d;
+  --muted: #6b6b6b;
+  --border: #e8e8e8;
+  --bg: #ffffff;
+  --card-bg: #1e2230;
 }
