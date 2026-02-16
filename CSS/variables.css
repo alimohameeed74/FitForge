@@ -27,4 +27,16 @@
   --fw-600: 600;
   --fw-700: 700;
   --freq-font-color: rgba(255, 255, 255, 0.697);
+  --main-padding: 60px;
+  --color-dark-bg: #101828;
+  --color-card-bg: #1e2939;
+  --color-light-bg: #f9fafb;
+  --color-white: #ffffff;
+  --color-gray-light: #d1d5dc;
+  --color-gray-medium: #4a5565;
+  --color-gray-dark: #444;
+  --color-border: #e5e7eb;
+  --color-red: red;
+  --shadow-light: 0 10px 20px rgba(0, 0, 0, 0.08);
+  --shadow-hover: 0 5px 10px rgba(0, 0, 0, 0.4);
 }

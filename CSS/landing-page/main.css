@@ -12,19 +12,19 @@
   text-align: center;
 }
 
-.content h1 {
+.main .content h1 {
   font-size: var(--fz-30);
   color: white;
   padding-bottom: 2rem;
   font-weight: var(--fw-700);
 }
-.content {
+.main .content {
   width: 80%;
 }
-.content span {
+.main .content span {
   color: #e7000b;
 }
-.content p {
+.main .content p {
   color: #dde0e6;
   margin-bottom: 20px;
   font-weight: var(--fw-500);
@@ -81,7 +81,7 @@
 }
 
 @media (min-width: 768px) {
-  .content h1 {
+  .main .content h1 {
     font-size: var(--fz-60);
   }
 

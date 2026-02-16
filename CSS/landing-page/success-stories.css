@@ -1,7 +1,83 @@
 /* Write the code for success-stories section here */
+img {
+  width: 100%;
+  height: 350px;
+  border-radius: 10px;
+}
+
+.red {
+  color: var(--color-red);
+}
+
+.success-stories {
+  background-color: var(--color-dark-bg);
+  padding-block: 80px;
+}
+
+.success .container > h2 {
+  font-weight: bold;
+  font-size: var(--fz-24);
+  color: var(--color-white);
+  text-align: center;
+}
+
+.success .container > .text {
+  color: var(--color-gray-light);
+  font-size: var(--fz-10);
+  text-align: center;
+  margin-top: 20px;
+}
+
+.success .content {
+  background-color: var(--color-card-bg);
+  padding: 20px;
+  margin: 40px auto 0;
+  border-radius: 10px;
+}
+
+.success .content .images {
+  display: flex;
+  gap: 20px;
+}
+
+.success .content .images div {
+  flex: 1;
+}
+
+.success .content .title {
+  text-align: center;
+  color: var(--color-red);
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.success .content .name {
+  font-weight: bold;
+  font-size: 25px;
+  color: var(--color-white);
+  text-align: center;
+  margin: 30px 0 20px;
+}
+
+.success .content .red {
+  text-align: center;
+  font-size: 20px;
+}
+
+.mt-5 {
+  margin-top: 20px;
+}
 
 /* Media Queries if needed */
 @media (min-width: 576px) {
+  .success .container > h2 {
+    font-size: var(--fz-48);
+  }
+
+  .success .container > .text {
+    font-size: var(--fz-24);
+  }
 }
 
 @media (min-width: 768px) {
@@ -14,4 +90,20 @@
 }
 
 @media (min-width: 1400px) {
+}
+
+@media (max-width: 768px) {
+  .success .content .images {
+    flex-direction: column;
+  }
+
+  img {
+    height: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  img {
+    height: 200px;
+  }
 }
