@@ -1,13 +1,309 @@
 /* Write the code for programs section here */
 
+.our-programs {
+  padding-block: 80px;
+}
+.program-content {
+  text-align: center;
+}
+.program-content span {
+  color: #ff0000;
+}
+.program-content h2 {
+  text-transform: capitalize;
+  font-size: var(--fz-24);
+  margin-bottom: 20px;
+  font-weight: var(--fw-700);
+}
+.program-content p {
+  font-size: var(--fz-10);
+  margin-bottom: 20px;
+  color: rgb(128, 128, 128, 1);
+}
+.program .pr-1 {
+  height: 55vh;
+  background-image: url("../../Assets/our-gym1.png");
+  background-size: cover;
+  background-position: center;
+
+  border-radius: 20px;
+  overflow: hidden;
+
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  inset: 0;
+
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2));
+}
+.pr1-content {
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+
+  color: white;
+  z-index: 2;
+}
+.pr1-content h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.pr-1-content p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  padding-top: 5px;
+}
+.program .pr-2 {
+  height: 55vh;
+  background-color: antiquewhite;
+  background-image: url("../../Assets/g2.jfif");
+  background-size: cover;
+  background-position: center;
+
+  border-radius: 20px;
+  overflow: hidden;
+
+  position: relative;
+}
+.pr-1 .bg-1 {
+  position: absolute;
+  inset: 0;
+
+  background-size: cover;
+  background-position: center;
+
+  transition: transform 0.6s ease;
+  z-index: 0;
+}
+.overlay {
+  position: absolute;
+  inset: 0;
+
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2));
+}
+.pr2-content {
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+
+  color: white;
+  z-index: 2;
+}
+.pr2-content h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.pr-2-content p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+.program .pr-3 {
+  height: 55vh;
+  background-color: antiquewhite;
+  background-image: url("../../Assets/g3.jfif");
+  background-size: cover;
+  background-position: center;
+
+  border-radius: 20px;
+  overflow: hidden;
+
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  inset: 0;
+
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2));
+}
+.pr3-content {
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+
+  color: white;
+  z-index: 2;
+}
+.pr3-content h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.pr-3-content p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+.program .pr-4 {
+  height: 55vh;
+  background-color: antiquewhite;
+  background-image: url("../../Assets/our-gym4.png");
+  background-size: cover;
+  background-position: center;
+
+  border-radius: 20px;
+  overflow: hidden;
+
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  inset: 0;
+
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2));
+}
+.pr4-content {
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+
+  color: white;
+  z-index: 2;
+}
+.pr4-content h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.pr-4-content p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+.program .pr-5 {
+  height: 55vh;
+  background-color: antiquewhite;
+  background-image: url("../../Assets/our-gym5.png");
+  background-size: cover;
+  background-position: center;
+
+  border-radius: 20px;
+  overflow: hidden;
+
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  inset: 0;
+
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2));
+}
+.pr5-content {
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+
+  color: white;
+  z-index: 2;
+}
+.pr5-content h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.pr-5-content p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+.program .pr-6 {
+  height: 55vh;
+  background-color: antiquewhite;
+  background-image: url("../../Assets/our-gym6.png");
+  background-size: cover;
+  background-position: center;
+
+  border-radius: 20px;
+  overflow: hidden;
+
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  inset: 0;
+
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2));
+}
+.pr6-content {
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+
+  color: white;
+  z-index: 2;
+}
+.pr6-content h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.pr-6-content p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+.pr-1,
+.pr-2,
+.pr-3,
+.pr-4,
+.pr5,
+.pr-6 {
+  cursor: pointer;
+  transition:
+    transform 0.4s ease,
+    box-shadow 0.4s ease;
+}
+.our-programs .cards {
+  margin-bottom: 20px;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+.pr-1:hover,
+.pr-2:hover,
+.pr-3:hover,
+.pr-4:hover,
+.pr-5:hover,
+.pr-6:hover {
+  transform: scale(1.04);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.our-programs .pr-btn {
+  text-align: center;
+  width: 200px;
+  padding: 10px;
+  margin: auto;
+  border-radius: 10px;
+  font-weight: var(--fw-600);
+  color: white;
+  background-color: red;
+}
+
+.our-programs .pr-btn:hover {
+  transform: scale(1.1);
+}
 /* Media Queries if needed */
 @media (min-width: 576px) {
+  .our-programs .cards {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .program-content h2 {
+    font-size: var(--fz-48);
+  }
+  .program-content p {
+    font-size: var(--fz-24);
+  }
 }
 
 @media (min-width: 768px) {
+  .our-programs .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (min-width: 992px) {
+  .our-programs .cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media (min-width: 1200px) {
