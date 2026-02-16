@@ -15,12 +15,12 @@ section {
   background-image: url("../../Assets/bg-photo.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .layer {
   background-color: rgba(0, 0, 0, 0.8);
-  height: 100vh;
+  height: 100%;
   z-index: 20;
 }
 
@@ -30,9 +30,6 @@ section {
   background-color: white;
   z-index: 100;
   width: 300px;
-  top: 350px;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 .reg-form h2 {
   margin-bottom: 20px;
