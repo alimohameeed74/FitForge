@@ -1,6 +1,52 @@
 /* Write the code for why-you-choose-us section here */
+.why-choose-us {
+  padding-block: 40px;
+  background-color: #101828;
+  color: #ffffff;
+  height: auto;
+}
+
+.why-choose-us h2 {
+  font-size: var(--fz-48);
+  margin-bottom: 12px;
+  font-weight: var(--fw-700);
+}
+
+.why-choose-us p {
+  color: gray;
+  font-size: var(--fz-24);
+  font-weight: var(--fw-500);
+  margin-bottom: 20px;
+}
+
+.why-choose-us .cards div {
+  background-color: #1e2939;
+  padding: 25px;
+  margin: 10px;
+  flex: 0 1 250px;
+  transition: 0.3s;
+}
+
+.why-choose-us .cards div:hover {
+  transform: translateY(-10px);
+}
+.why-choose-us .fa-solid {
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+  margin: auto;
+  background-color: red;
+  font-weight: var(--fw-700);
+  font-size: var(--fz-30);
+}
+
+.why-choose-us .cards p {
+  font-size: var(--fz-16);
+  padding-top: 15px;
+}
 
 /* Media Queries if needed */
+
 @media (min-width: 576px) {
 }
 
