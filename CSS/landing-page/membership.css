@@ -1,7 +1,7 @@
 /* Write the code for membership section here */
 .membership {
   background-color: white;
-  padding-block: 30px;
+  padding-block: 60px;
 }
 .membership h2 {
   color: #101828;
@@ -17,13 +17,8 @@
 }
 
 .membership-cards {
-  flex-direction: column;
-}
-
-.membership-cards .c-1,
-.membership-cards .c-2 {
-  flex-direction: column;
-  width: 100%;
+  grid-template-columns: 1fr;
+  gap: 20px;
 }
 
 .membership-cards .card {
@@ -87,6 +82,10 @@
 
 /* Media Queries if needed */
 @media (min-width: 576px) {
+  .membership-cards {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
   .membership h2 {
     color: #101828;
     font-size: var(--fz-48);
@@ -98,35 +97,22 @@
 }
 
 @media (min-width: 768px) {
-  .membership-cards .card {
-    width: 46%;
-  }
-  .membership-cards .c-1,
-  .membership-cards .c-2 {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  .membership-cards {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 992px) {
-  .membership-cards .c-1,
-  .membership-cards .c-2 {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 48%;
-    margin-bottom: 0px;
-  }
 }
 
 @media (min-width: 1200px) {
   .membership-cards {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media (min-width: 1400px) {
+  .membership-cards {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }

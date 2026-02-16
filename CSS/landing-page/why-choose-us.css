@@ -7,22 +7,27 @@
 }
 
 .why-choose-us h2 {
-  font-size: var(--fz-48);
+  font-size: var(--fz-24);
   margin-bottom: 12px;
   font-weight: var(--fw-700);
 }
 
 .why-choose-us p {
   color: gray;
-  font-size: var(--fz-24);
+  font-size: var(--fz-10);
   font-weight: var(--fw-500);
   margin-bottom: 20px;
+}
+
+.why-choose-us .cards {
+  grid-template-columns: 1fr;
+  gap: 20px;
 }
 
 .why-choose-us .cards div {
   background-color: #1e2939;
   padding: 25px;
-  margin: 10px;
+  margin-block: 10px;
   flex: 0 1 250px;
   transition: 0.3s;
 }
@@ -48,16 +53,39 @@
 /* Media Queries if needed */
 
 @media (min-width: 576px) {
+  .why-choose-us .cards {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
 }
 
 @media (min-width: 768px) {
+  .why-choose-us h2 {
+    font-size: var(--fz-48);
+  }
+  .why-choose-us .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .why-choose-us p {
+    font-size: var(--fz-24);
+  }
 }
 
 @media (min-width: 992px) {
 }
 
 @media (min-width: 1200px) {
+  .why-choose-us .cards div {
+    margin-block: 0;
+  }
+  .why-choose-us .cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media (min-width: 1400px) {
+  .why-choose-us .cards {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }

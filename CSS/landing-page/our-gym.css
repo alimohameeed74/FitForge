@@ -5,14 +5,14 @@
 }
 
 .our-gym h2 {
-  font-size: var(--fz-48);
+  font-size: var(--fz-24);
   margin-bottom: 12px;
   font-weight: var(--fw-700);
 }
 
 .our-gym p {
   color: gray;
-  font-size: var(--fz-24);
+  font-size: var(--fz-10);
   font-weight: var(--fw-500);
   margin-bottom: 20px;
 }
@@ -46,6 +46,13 @@
 }
 
 @media (min-width: 768px) {
+  .our-gym h2 {
+    font-size: var(--fz-48);
+  }
+
+  .our-gym p {
+    font-size: var(--fz-24);
+  }
 }
 
 @media (min-width: 992px) {
