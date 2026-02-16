@@ -1,12 +1,89 @@
 /* Write the code for about section here */
+.about {
+  text-align: center;
+  background-color: #f9fafb;
+  padding-block: 40px;
+}
+
+.about h2 {
+  font-size: var(--fz-24);
+  margin-bottom: 20px;
+}
+.about span {
+  color: #e7000b;
+}
+.about .details_about p {
+  font-size: var(--fz-10);
+  color: gray;
+}
+.about i {
+  width: 4rem;
+  height: 60px;
+  background-color: red;
+  border-radius: 50%;
+  color: #f9fafb;
+  font-size: 2rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.icons {
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+  gap: 20px;
+  padding-block: 40px;
+}
+.icons p {
+  margin: 5px;
+  color: black;
+}
+
+.icons .icon_4 i {
+  transform: rotate(45deg);
+}
 
 /* Media Queries if needed */
 @media (min-width: 576px) {
+  .about h2 {
+    font-size: var(--fz-48);
+  }
+  .about span {
+    color: #e7000b;
+  }
+  .about .details_about p {
+    font-size: var(--fz-24);
+  }
+
+  .about .icons p {
+    font-size: 1.2rem;
+  }
+  .icons {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    gap: 20px;
+    padding-block: 40px;
+  }
 }
 
 @media (min-width: 768px) {
+  .about .details_about p {
+    font-size: 1.4rem;
+    margin: auto;
+  }
+  h2 {
+    font-size: 1.4rem;
+  }
+  .about .icons p {
+    font-size: 1.6rem;
+  }
 }
-
 @media (min-width: 992px) {
 }
 
