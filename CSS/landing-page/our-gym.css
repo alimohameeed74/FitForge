@@ -1,16 +1,63 @@
 /* Write the code for our-gym section here */
+.our-gym {
+  padding-block: 40px 0;
+  margin: 50px auto;
+}
+
+.our-gym h2 {
+  font-size: var(--fz-48);
+  margin-bottom: 12px;
+  font-weight: var(--fw-700);
+}
+
+.our-gym p {
+  color: gray;
+  font-size: var(--fz-24);
+  font-weight: var(--fw-500);
+  margin-bottom: 20px;
+}
+
+.our-gym .images {
+  gap: 20px;
+  grid-template-columns: 1fr;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.our-gym img {
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: 15px;
+  transition: 0.4s;
+  object-fit: cover;
+}
+
+.our-gym img:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
 
 /* Media Queries if needed */
 @media (min-width: 576px) {
+  .our-gym .images {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (min-width: 768px) {
 }
 
 @media (min-width: 992px) {
+  .our-gym .images {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (min-width: 1200px) {
+  .our-gym .images {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media (min-width: 1400px) {
