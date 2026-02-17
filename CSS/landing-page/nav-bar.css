@@ -4,6 +4,9 @@
   padding-block: 20px;
   z-index: 999;
 }
+.nav-bar h1 {
+  font-size: 25px;
+}
 
 .nav-bar .nav-bar-logo {
   text-transform: uppercase;
@@ -66,6 +69,9 @@
 @media (min-width: 576px) {
   .nav-bar .fa-dumbbell {
     display: flex;
+  }
+  .nav-bar h1 {
+    font-size: 32px;
   }
 }
 
